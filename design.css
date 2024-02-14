@@ -1,0 +1,48 @@
+.jumbotron{
+    background-image:url("/harvard-university-cambridge-usa_1268-14363.jpg") ;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color:olive;
+    width:100%;
+    height:950px;
+    margin-bottom:0%;
+}
+.container{
+    display:grid;
+    margin-left:20px;
+    grid-template-columns: auto auto auto auto auto;
+}
+.grid-item{
+      background-color: antiquewhite;
+      border:2px solid black ;
+      padding:5px;
+       font-size:20px;
+       text-align:left;
+
+}
+.flex-container{
+    
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    background-color: antiquewhite;
+    
+}
+.one{
+    font-size:20px;
+    font-weight: bold;
+    background-color: gainsboro;
+}
+
+
+.flex-container div{
+   width:400px;
+    border:2px solid gray;
+}
+.footer{
+    margin-bottom:0;
+    background-color: aliceblue;
+    text-align:center;
+}
+
+   
